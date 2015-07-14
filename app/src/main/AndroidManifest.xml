@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.edu.ulima.persistencia" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PorAplicacionActivity"
+            android:label="@string/title_activity_por_aplicacion" >
+        </activity>
+        <activity
+            android:name=".PorDispositivoActivity"
+            android:label="@string/title_activity_por_dispositivo" >
+        </activity>
+        <activity
+            android:name=".SharedPreferencesActivity"
+            android:label="@string/title_activity_shared_preferences" >
+        </activity>
+        <activity
+            android:name=".InternalActivity"
+            android:label="@string/title_activity_internal" >
+        </activity>
+        <activity
+            android:name=".SQLiteActivity"
+            android:label="@string/title_activity_sqlite" >
+        </activity>
+        <activity
+            android:name=".NuevoActivity"
+            android:label="@string/title_activity_nuevo" >
+        </activity>
+        <activity
+            android:name=".ListarActivity"
+            android:label="@string/title_activity_listar" >
+        </activity>
+    </application>
+
+</manifest>
